@@ -14,6 +14,9 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <!-- build:css(.tmp) styles/viz_juarez.css -->
+    <link rel="stylesheet" href="styles/viz_juarez.css">
+    <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -24,18 +27,21 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
-    <div class="container">
+     <div class="container section-1">
       <div class="header">
         <h3 class="text-muted">Evolución de la violencia en Cd. Juárez, Chihuahua</h3>
+        <p class="codeando">
+          En colaboración con <a href="http://codeandomexico.org">Codeando México</a>
+        </p>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-12">
-          <p>
-            Feta pepper jack macaroni cheese. Cheesecake bavarian bergkase cheese slices squirty cheese ricotta stinking bishop emmental manchego. Cut the cheese halloumi goat boursin airedale boursin cheesecake cheeseburger. Parmesan blue castello parmesan feta cream cheese hard cheese melted cheese stilton. Rubber cheese blue castello stilton airedale.
+          <p class="overview">
+            Feta pepper jack macaroni cheese. Cheesecake bavarian bergkase cheese slices squirty cheese ricotta stinking bishop emmental manchego. Cut the cheese halloumi goat boursin airedale boursin cheesecake cheeseburger.
+          <br/><br/>Parmesan blue castello parmesan feta cream cheese hard cheese melted cheese stilton. Rubber cheese blue castello stilton airedale.
             Cheese and biscuits gouda bocconcini. Cheesy grin macaroni cheese fondue cheese and biscuits smelly cheese parmesan queso emmental. Cheese and biscuits cheese strings ricotta fondue parmesan jarlsberg cheesy feet rubber cheese. Jarlsberg cheddar taleggio.
-          </p>
+          </pra>
 
 
           <div class="media">
@@ -75,17 +81,23 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-
-
-          <div class="row">
-            <div class="col-lg-12">
-            <iframe src="/density.html" frameborder="0" class="col-lg-12 col-md-12 col-sm-12" height="1000px"></iframe>
+    <div class="density">
+      <div class="container" >
+            <div class="row">
+              <div class="col-lg-12">
+	             <h2>Densidad de homicidios en ciudad Ju&aacute;rez</h2>
+               <iframe src="/density.html" frameborder="0" class="col-lg-12 col-md-12 col-sm-12" height="960px"></iframe>
+              </div>
             </div>
-          </div>
+       </div>
+    </div>
 
-
-
+    <div class="container section-2" >
+       <div class="row marketing">
           <div class="media">
             <a class="pull-left" href="#">
               <img data-src="holder.js/64x64" alt="64x64" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnMvPjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEzLjQ2MDkzNzUiIHk9IjMyIiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQ7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NjR4NjQ8L3RleHQ+PC9nPjwvc3ZnPg==" data-holder-rendered="true" style="width: 64px; height: 64px;">
@@ -109,7 +121,7 @@
 
           <br />
 
-          <div class="row">
+          <div class="row linea-tiempo">
             <div class="col-lg-12">
               <ul class="nav nav-tabs" role="tablist" id="myTab">
                 <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Línea del tiempo</a></li>
@@ -295,17 +307,7 @@
             </div>
 
           </div>
-
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>
-          En colaboración con <a href="http://codeandomexico.org">Codeando México</a>
-        </p>
-      </div>
-
-    </div>
+       </div>
 
 
     <!-- build:js(.) scripts/vendor.js -->

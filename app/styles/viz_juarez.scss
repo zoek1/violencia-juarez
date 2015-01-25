@@ -1,0 +1,75 @@
+$rojo: #BA0102;
+$separacion: 55px;
+
+body {
+  background-color: white;
+}
+
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.codeando {
+  color: $rojo;
+}
+
+.density {
+  background-color: #eee;
+
+  h2 {
+   text-transform: uppercase;
+   font-weight: bold;
+   width: 13em;
+   font-size: 22px;
+   letter-spacing: -1px;
+  }
+}
+
+
+.nav-tabs {
+  border-bottom: 5px solid $rojo;
+  font-weight: bold;
+
+
+    & > li > a {
+      color: black;
+
+      &:hover {
+        border-color: #eeeeee #eeeeee transparent;
+        // border-bottom: 0.8px;
+      }
+    }
+
+    & > li.active > a, & > li.active > a:hover, & > li.active > a:focus {
+      color: white;
+      background-color: $rojo;
+      border-bottom-color: transparent;
+      font-weight: bold;
+      margin: 0px;
+    }
+}
+
+.row {
+  margin-top: 15px;
+}
+
+.overview {
+  margin-bottom: $separacion;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.media {
+  margin-top: 15px;
+}
+
+
+.density + .container {
+  margin-top: $separacion;
+}
+
+.linea-tiempo  {
+  margin-top: $separacion;
+}
